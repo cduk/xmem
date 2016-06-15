@@ -1,3 +1,15 @@
 This is my first attempt at designing a PCB.
 
-It is an expansion board for the Arduino XMEGA to have an external SRAM chip.
+It is an expansion board for the Arduino ATmega to have an external SRAM chip.
+
+I'm using the AS6C1008 128K x 8 bit chip as I happened to have several of these on hand. You can either use half of it, which is as much as the ATmega can address without banking, or you can bank switch using the A15 pin.
+
+As this is only a 55ns ram chip, maximum clock speed should be ~18MHz without waitstates. I still need to test the board and chips to see how fast the RAM chips can actually be driven.
+
+This PCB was designed from scratch by myself as a way to learn to use KiCad: http://kicad-pcb.org/
+
+I have seen several other designs already including most notably:
+
+http://andybrown.me.uk/2011/08/28/512kb-sram-expansion-for-the-arduino-mega-design/
+
+Which I'm sure both influenced my own design both consciously and probably sub-consciously and so I want to make sure I credit Andy for this work.
