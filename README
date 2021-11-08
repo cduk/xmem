@@ -6,7 +6,7 @@ I'm using the AS6C1008 128K x 8 bit chip as I happened to have several of these 
 
 As this is only a 55ns ram chip, maximum clock speed should be ~18MHz without waitstates. I still need to test the board and chips to see how fast the RAM chips can actually be driven.
 
-This PCB was designed from scratch by myself as a way to learn to use KiCad: http://kicad-pcb.org/
+This PCB was designed from scratch by myself as a way to learn to use KiCad: http://kicad.org/
 
 I have seen several other designs already including most notably:
 
